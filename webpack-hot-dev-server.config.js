@@ -73,6 +73,7 @@ module.exports = require("./make-webpack-config")(rules, {
     publicPath: "/",
     noInfo: true,
     hot: true,
+	disableHostCheck: true,
     stats: {
       colors: true
     },
