@@ -5,7 +5,6 @@ import ConfigsPlugin from "plugins/configs"
 // the Standalone preset
 
 let preset = [
-  TopbarPlugin,
   ConfigsPlugin,
   () => {
     return {
