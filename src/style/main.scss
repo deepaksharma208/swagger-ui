@@ -10,10 +10,13 @@
     @import 'modal';
     @import 'models';
     @import 'table';
-    @import 'topbar';
     @import 'information';
     @import 'authorize';
     @import 'errors';
     @include text_body();
     @import 'split-pane-mode';
+}
+
+.swagger-ui + .wrapper{
+    display: none;
 }
